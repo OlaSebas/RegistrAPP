@@ -16,11 +16,11 @@ function inicio(){
     const navType = isandroid()
     if (navType){
         ocultarQR()
-        alert('ola')
+
     }
     else {
         ocultarLink()
-        alert('alo')
+
     }
 }
 window.onload = inicio
