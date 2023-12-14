@@ -1,4 +1,4 @@
-function isandroid() {
+function isAndroid() {
     return /Android/.test(navigator.userAgent);
 }
 
@@ -13,7 +13,7 @@ function ocultarLink(){
 }
 
 function inicio(){
-    const navType = isandroid()
+    const navType = isAndroid()
     if (navType){
         ocultarQR()
 
